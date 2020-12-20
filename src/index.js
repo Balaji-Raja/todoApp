@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Login from './Login';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter, Route}from 'react-router-dom'
+import ToDo from './ToDo';
+import Test from './Test';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<BrowserRouter>
+<Route exact path='/' component={Login}/>
+<Route path ='/test' component={Test}/>
+<Route path='/todo' component={ToDo}/>
+</BrowserRouter>,
   document.getElementById('root')
 );
 
