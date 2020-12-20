@@ -1,0 +1,52 @@
+.todo-form{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 20px;
+}
+.todo-page{
+    background-image: url("./todobg.jpg");
+    height: 1000px;
+  }
+.todo-head{
+    color: turquoise;
+    border-style: solid;
+    background-color: black;
+    border-color: black;
+}
+.delete{
+    font-size: 15px;
+    background-color: tomato;
+    color:white;
+    border: tomato;
+    float: right;
+    margin-right: 10px;
+}
+.list{
+    font-size: 10px;
+    font-style: inherit;
+    text-align: center;
+    font-size: 20px;
+}
+.add{
+    background-color: royalblue;
+    color:white;
+    border: lightblue;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.box{
+    font-size: 20px;
+    width: 450px;
+}
+.table{
+    border: 1px solid black;
+    width: 510px;
+    border-collapse: collapse;
+    background-color: lightgoldenrodyellow;
+}
+.table-row{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+}

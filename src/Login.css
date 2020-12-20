@@ -1,0 +1,17 @@
+.login-page{
+  background-image: url("./todobg.jpg");
+  height: 1000px;
+}
+.todo-heading{
+  color: aliceblue;
+}
+.login{
+  background:  rgba(37, 71, 99, 0.4);
+  height: 200px;
+  width: 350px;
+}
+.login-button{
+  float: right;
+  margin-right: 30%;
+  background-color: lightseagreen;
+}
